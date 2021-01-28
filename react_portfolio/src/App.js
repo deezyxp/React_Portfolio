@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from "./pages/Home";
-import Projects from "./pages/Projects"
-import Socials from "./pages/Socials"
-import Contact from "./pages/Contact"
+import Home from "./pages/Home/Home";
+import Projects from "./pages/Projects/Projects"
+import Socials from "./pages/Socials/Socials"
+import Contact from "./pages/Contact/Contact"
 import './App.css'
 
 

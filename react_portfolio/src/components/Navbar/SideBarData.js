@@ -10,12 +10,6 @@ export const SidebarData = [{
     className: 'nav-text'
 },
 {
-    title: 'Statement',
-    path: '/',
-    icon: <AiIcons.AiFillHome />,
-    className: 'nav-text'
-},
-{
     title: 'Projects',
     path: '/',
     icon: <AiIcons.AiOutlineBook />,
