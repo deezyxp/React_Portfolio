@@ -11,19 +11,19 @@ export const SidebarData = [{
 },
 {
     title: 'Projects',
-    path: '/',
+    path: '/Projects',
     icon: <AiIcons.AiOutlineBook />,
     className: 'nav-text'
 },
 {
     title: 'Socials',
-    path: '/',
+    path: '/Socials',
     icon: <AiIcons.AiFillFacebook />,
     className: 'nav-text'
 },
 {
     title: 'Contact',
-    path: '/',
+    path: '/Contact',
     icon: <IoIcons.IoIosContact />,
     className: 'nav-text'
 },
