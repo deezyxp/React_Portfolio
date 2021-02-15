@@ -2,7 +2,7 @@ import React from 'react';
 import WWImage from '../image/weather-wear-screenshot-1.png'
 import WDImage from '../image/weatherdashboard.PNG'
 import CQImage from '../image/Quiz_Picture.PNG'
-import DPImage from '../image/DayPlanner.PNG'
+import EZImage from '../image/ezportal.PNG'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import '../../Style/style.css'
@@ -31,8 +31,8 @@ function Projects() {
                 </Col>
 
                 <Col xs={12} sm={6} md={6}>
-                    <a className="mx-auto" href="https://deezyxp.github.io/Day_Planner.io/">Day Planner</a>
-                    <img src={DPImage} alt="DPscreenshot" className="dayplanner"></img>
+                    <a className="mx-auto" href="https://github.com/Skoggy/EZ-Portal">EZ Portal</a>
+                    <img src={EZImage} alt="EZscreenshot" className="ezportal"></img>
                     <a className="mx-auto" href="https://github.com/deezyxp/Day_Planner.io">Github Repository</a>
                 </Col>
             </Row>
