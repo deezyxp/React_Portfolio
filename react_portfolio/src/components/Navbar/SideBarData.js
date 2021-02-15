@@ -16,12 +16,6 @@ export const SidebarData = [{
     className: 'nav-text'
 },
 {
-    title: 'Socials',
-    path: '/Socials',
-    icon: <AiIcons.AiFillFacebook />,
-    className: 'nav-text'
-},
-{
     title: 'Contact',
     path: '/Contact',
     icon: <IoIcons.IoIosContact />,
