@@ -1,6 +1,6 @@
 import React from 'react';
 import WWImage from '../image/weather-wear-screenshot-1.png'
-import WDImage from '../image/weatherdashboard.PNG'
+import PhoImage from '../image/photastic.PNG'
 import CQImage from '../image/Quiz_Picture.PNG'
 import EZImage from '../image/ezportal.PNG'
 import Row from 'react-bootstrap/Row'
@@ -19,9 +19,9 @@ function Projects() {
                 </Col>
 
                 <Col xs={12} sm={6} md={6}>
-                    <a className="mx-auto" href="https://deezyxp.github.io/Weather_Dashboard.io/">Weather Dashboard</a>
-                    <img src={WDImage} alt="WDscreenshot" className="weatherdashboard"></img>
-                    <a className="mx-auto" href="https://github.com/deezyxp/Weather_Dashboard.io">Github Repository</a>
+                    <a className="mx-auto" href="https://github.com/deezyxp/PhoTastic/">PhoTastic</a>
+                    <img src={WDImage} alt="PhoImage" className="photastic"></img>
+                    <a className="mx-auto" href="https://github.com/deezyxp/PhoTastic">Github Repository</a>
                 </Col>
 
                 <Col xs={12} sm={6} md={6}>
@@ -33,7 +33,7 @@ function Projects() {
                 <Col xs={12} sm={6} md={6}>
                     <a className="mx-auto" href="https://github.com/Skoggy/EZ-Portal">EZ Portal</a>
                     <img src={EZImage} alt="EZscreenshot" className="ezportal"></img>
-                    <a className="mx-auto" href="https://github.com/deezyxp/Day_Planner.io">Github Repository</a>
+                    <a className="mx-auto" href="https://github.com/Skoggy/EZ-Portal">Github Repository</a>
                 </Col>
             </Row>
         </>
